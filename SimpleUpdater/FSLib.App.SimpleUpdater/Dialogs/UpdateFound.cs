@@ -118,7 +118,10 @@ namespace FSLib.App.SimpleUpdater.Dialogs
 				//必须升级
 				lnkCance.Visible = false;
 			}
-		}
+
+            this.TopMost = true;
+            this.Activate();
+        }
 
 		void rtf_LinkClicked(object sender, LinkClickedEventArgs e)
 		{
