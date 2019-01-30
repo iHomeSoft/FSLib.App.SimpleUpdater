@@ -342,6 +342,9 @@ Please visit https://www.fishlee.net/soft/simple_autoupdater/ to get update pack
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Company>鱼的后花园</Company>
 	</PropertyGroup>
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="copy /Y $(ProjectDir)bin\Debug\net45\$(TargetFileName) C:\iHomeSoft\develop\0libs\" />
+	</Target>
 	<!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 			 Other similar extension points exist, see Microsoft.Common.targets.
 	<Target Name="BeforeBuild">
