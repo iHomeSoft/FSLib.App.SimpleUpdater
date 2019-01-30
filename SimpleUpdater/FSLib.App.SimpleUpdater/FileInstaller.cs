@@ -36,7 +36,7 @@ namespace FSLib.App.SimpleUpdater
 				RollbackFiles(e);
 				return false;
 			}
-			DeleteEmptyDirectories();
+			//DeleteEmptyDirectories();
 
 			if (!InstallFiles(e))
 			{
