@@ -121,15 +121,16 @@
     <value>FSLib.App.SimpleUpdater.UpdateControl.ControlBase, SimpleUpdater, Version=3.1.5427.29174, Culture=neutral, PublicKeyToken=c532149a76b9a64b</value>
   </data>
   <data name="$this.StepDesc" xml:space="preserve">
-    <value>赞哦，您已经成功升级到了最新版！</value>
+    <value>您已经成功升级到了最新版！</value>
   </data>
   <data name="$this.StepTitle" xml:space="preserve">
-    <value>自动更新已经成功完成</value>
+    <value>自动更新完成</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>UpdateFinished</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
 </root>

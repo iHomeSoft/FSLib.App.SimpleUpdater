@@ -144,7 +144,7 @@
     <value />
   </data>
   <data name="downloadingInfo1.StepTitle" xml:space="preserve">
-    <value>正在获得更新信息，请稍等...</value>
+    <value>正在获取更新信息，请稍等...</value>
   </data>
   <data name="runUpdate1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -185,15 +185,15 @@
 </value>
   </data>
   <data name="updateFinished1.StepDesc" xml:space="preserve">
-    <value>赞哦，您已经成功升级到了最新版！</value>
+    <value>您已经成功升级到了最新版！</value>
   </data>
   <data name="updateFinished1.StepTitle" xml:space="preserve">
-    <value>自动更新已经成功完成</value>
+    <value>自动更新完成</value>
   </data>
   <data name="updateError1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAK
-        8AAACvABQqw0mAAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAAi1JREFUOE+l0M9r
+        7wAACu8BfXaKSAAAABh0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzT7MfTgAAAi1JREFUOE+l0M9r
         knEcB/Bv/pjT/DV9VGZrbQYx6C/o1qVbdOhQ0CGIYp3auV2CbbmgOSoqWoyEYdZSqE1KglzMdbBoxaJz
         RF3C34/66GOWvvt8dXvU5qkOL/1+vu/P9314GID/0vNSfs2s1YTnVPXtoRlyrZo4eFaOa9y9dnddyOtD
         E/KbUVGOD6LySkMY5LgL8sbIT3njwOzf+11DJbZvthJzoxzVQIowVDdPQH4/jtJTRncqVGIusn+5841y
@@ -210,7 +210,7 @@
     <value />
   </data>
   <data name="updateError1.StepTitle" xml:space="preserve">
-    <value>更新发生错误，请稍后重试</value>
+    <value>更新发生错误，请稍后重试！</value>
   </data>
   <data name="noUpdateFound1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -229,10 +229,10 @@
 </value>
   </data>
   <data name="noUpdateFound1.StepDesc" xml:space="preserve">
-    <value>赞哦，您正在使用最新版。如果对此有任何疑问，请联系我们。</value>
+    <value>您正在使用最新版。如果对此有任何疑问，请联系我们。</value>
   </data>
   <data name="noUpdateFound1.StepTitle" xml:space="preserve">
-    <value>木有找到更新</value>
+    <value>没有找到更新</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AutoUpdate</value>
